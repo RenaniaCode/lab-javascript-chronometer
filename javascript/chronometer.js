@@ -23,10 +23,10 @@ class Chronometer {
 
   getSeconds() {
     // ... your code goes here
-
     let toSubstract = this.getMinutes() * 60;
 
     let portionOfSeconds = this.currentTime - toSubstract;
+    console.log(toSubstract)
     return portionOfSeconds;
   }
 
